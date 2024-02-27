@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "css_3"
+		},
+		{
+			"path": "assets"
+		},
+		{
+			"path": "index"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "index",
+		"liveServer.settings.port": 5501
+	}
+}

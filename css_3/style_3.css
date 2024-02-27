@@ -1,0 +1,13 @@
+body{
+    background-color: aliceblue;
+}
+
+
+.custom--logo{
+    width: 30px !important; 
+    height: auto !important;    
+}
+
+nav{
+    background-color: transparent;
+}
