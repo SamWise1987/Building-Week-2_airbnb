@@ -9,5 +9,16 @@ body{
 }
 
 nav{
-    background-color: transparent;
+    background-color: tr;
+}
+
+.rounded-top-left {
+    border-top-right-radius: 0.25rem;
+}
+.rounded-bottom-right {
+    border-bottom-right-radius: 0.25rem;
+}
+
+.review-form{
+    height: 100px;
 }
