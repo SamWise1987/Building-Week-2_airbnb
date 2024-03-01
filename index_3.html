@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="path/to/logo.png" class="custom-logo" alt="Logo">
+                <img src="./assets/logo-pink.png" class="logo-logo" alt="Logo">
             </a>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
@@ -43,16 +43,16 @@
     <section>
         <div class="container">
             <div class="row mb-2">
-                <div class="col-md-8 col-sm-3">
+                <div class=" col-12 col-md-6 my-5">
                     <h2>Blarmor home</h2>
                     <p class="lead">4,6 rating - Inverness</p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md">
 
 
                 </div>
-                <div class="col-6 col-sm-3 text-right">
-                    <div class="d-flex justify-content-around">
+                <div class="col-12 col-sm-3 text-right d-flex align-items-center  ">
+                    <div class="d-flex justify-content-around gap-2 ">
                         <div class="d-flex align-items-around gap-2">
                             <i class="bi bi-box-arrow-up"></i>
                             <p>Share</p>
@@ -64,6 +64,7 @@
                     </div>
                 </div>
             </div>
+        </div>
 
 
 
@@ -72,24 +73,24 @@
 
     <section>
         <div class="container ">
-            <div class="row ">
-                <div class="col-6">
+            <div class="row mt-md-3 ">
+                <div class="col-12 col-md-6 mb-2 ">
                     <img src="./assets/1.webp" alt="" class="w-100 rounded  ">
                 </div>
-                <div class="col-6">
-                    <div class="row mb-2 ">
-                        <div class="col-6">
+                <div class="col-12 col-md-6">
+                    <div class="row ">
+                        <div class="col-12 col-md-6 mb-2 ">
                             <img src="./assets/1.webp" alt="" class="w-100 ">
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 mb-2">
                             <img src="./assets/1.webp" alt="" class="w-100 rounded-top-left  ">
                         </div>
                     </div>
                     <div class="row mt-3 ">
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 mb-2">
                             <img src="./assets/1.webp" alt="" class="w-100 ">
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-md-6 mb-2">
                             <img src="./assets/1.webp" alt="" class="w-100 rounded-bottom-right ">
                         </div>
                     </div>
@@ -100,10 +101,10 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-6 mt-5">
+                <div class="col-12 col-md-6 mt-3 mt-5">
                     <h3>House - Host: Erica</h3>
                     <p>3 rooms <span>·</span> Perfect place to visit the Loch Ness and go looking for Nessie</p>
-                    <a href="#" class="text-decoration-none ">Show host details</a>
+                    <a href="#" class="text-decoration-none  ">Show host details</a>
                     <div class="row mt-4">
                         <div class="col-2 d-flex align-items-center justify-content-center">
                             <i class="bi bi-house-door"></i>
@@ -142,7 +143,7 @@
                     </div>
                     <div class="row mb-3">
                         <div class="col-2 d-flex align-items-center justify-content-center">
-                            <i class="bi bi-book"></i>i>
+                            <i class="bi bi-book"></i>
                         </div>
                         <div class="col-10">
                             <h4>Rules Of The House</h4>
@@ -151,33 +152,28 @@
                     </div>
 
                 </div>
-                <div class="col-5 ms-auto">
-
-
-                    <div class="row mt-5">
-                        <div class="card border-1 rounded  shadow mt-5">
-                            <div class="card-body ">
+                <div class="col-12 col-lg-5 ms-auto mt-3 mb-5 mt-lg-o">
+                    <div class="row mt-5 justify-content-center mx-auto">
+                        <div class="card border-1 rounded shadow mt-5">
+                            <div class="card-body">
                                 <div class="d-flex justify-content-evenly">
                                     <h5>Add dater to see the prices</h5>
-
                                     <p>4.0, 6 reviews</p>
                                 </div>
                             </div>
                             <div>
                                 <div class="row g-0">
-                                    <div class="col-6">
-                                        <input type="date" class="form-control border-top-left " id="dateIn">
+                                    <div class="col-12 col-md-6">
+                                        <input type="date" class="form-control border-top-left border-corner-date-in" id="dateIn">
                                     </div>
-                                    <div class="col-6">
-                                        <input type="date" class="form-control" id="dateOut">
+                                    <div class="col-12 col-md-6">
+                                        <input type="date" class="form-control border-corner-date-out" id="dateOut">
                                     </div>
                                 </div>
                                 <div class="mb-3">
-                                    <input type="number" class="form-control rounded-bottom " id="guests"
-                                        placeholder="Guest">
-
+                                    <input type="number" class="form-control rounded-bottom border-corner-guest" id="guests" placeholder="Guest">
                                 </div>
-                                <div class="d-grid gap-2 mb-3 ">
+                                <div class="d-grid gap-2 mb-3">
                                     <button class="btn btn-danger" type="button"> Cancel Bookings</button>
                                 </div>
                             </div>
@@ -194,13 +190,11 @@
     <section>
         <div class="container">
             <div class="row mb-3">
-                <div class="col-7">
+                <div class="col-12 col-md-6">
                     <h4>Name</h4>
                     <input type="text" class="form-control" id="name" placeholder="Enter Name">
                 </div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-7">
+                <div class="col-12 col-md-6">
                     <h4>Rating</h4>
                     <select class="form-select" id="rating">
                         <option selected>Choose rating</option>
@@ -212,10 +206,12 @@
                     </select>
                 </div>
             </div>
+
             <div class="row mb-3">
                 <div class="col-12">
                     <h4>Review</h4>
-                    <textarea type="text" class="form-control review-form" id="review" placeholder="Type your review" cols="0" rows="10"></textarea>
+                    <textarea type="text" class="form-control review-form" id="review" placeholder="Type your review"
+                        cols="0" rows="10"></textarea>
                 </div>
             </div>
         </div>
@@ -224,14 +220,36 @@
     <section>
         <div class="container">
             <div class="row">
-              <div class="col-6 ">
-                
-              </div>
-              <div class="col-6 ">
-
-              </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/propic.png" alt="User_img" class="rounded-circle img-widht">
+                        <div>
+                            <h5>Noemi</h5>
+                            <p>Jan 2021</p>
+                        </div>
+                    </div>
+                    <p>
+                        Contrary to other reviews I was cold and couldn't figure out how to turn on the
+                        heating...Otherwise amazing house.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex align-items-center">
+                        <img src="./assets/propic.png" alt="User_img" class="rounded-circle img-widht">
+                        <div>
+                            <h5>Noemi</h5>
+                            <p>Jan 2021</p>
+                        </div>
+                    </div>
+                    <p>
+                        Contrary to other reviews I was cold and couldn't figure out how to turn on the
+                        heating...Otherwise amazing house.
+                    </p>
+                </div>
             </div>
+
         </div>
+
     </section>
 
 
