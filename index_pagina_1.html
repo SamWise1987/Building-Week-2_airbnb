@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css1/styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom d-none d-lg-block">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo.png" alt="Logo" style="height:50px;">
+            </a>
+            <!-- Toggler Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- Gruppo di link centrati -->
+                <ul class="navbar-nav navbar-nav-center mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Places to stay</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Online Experiences</a>
+                    </li>
+                </ul>
+                <!-- Gruppo di link a destra -->
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item d-flex align-items-center">
+                        <a class="nav-link" href="#">Become a host</a>
+                        <a class="nav-link" href="#"><i class="bi bi-globe2"></i></a>
+                        <div class="icon-oval">
+                            <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
+                            <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar per Mobile -->
+    <nav class="navbar navbar-custom d-lg-none">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/logo.png" alt="Logo" style="height:50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobileContent" aria-controls="navbarMobileContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMobileContent">
+                <!-- Elementi navbar mobile -->
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Places to stay</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Online Experiences</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- GO NEAR -->
+
+    <div class="go-near-container position-absolute top-50 start-0 translate-middle-y w-100 px-4">
+        <div class="row">
+            <div class="col-12 col-md-8 col-lg-6">
+                <h1 class="go-near-title display-1 fw-bold text-white text-shadow">Go <br>Near</h1>
+                <button class="go-near-button btn btn-light btn-lg fw-bold">Explore nearby stays</button>
+            </div>
+        </div>
+    </div>
+
+
+<!-- BARRA DI RICERCA -->
+
+<div class="container">
+    <div class="search-container">
+        <div class="input-group">
+            <label for="location-input" class="form-label">Location</label>
+            <input type="text" class="form-control" id="location-input" placeholder="Where are you going?" aria-label="Location">
+        </div>
+        <div class="input-group">
+            <label for="check-in-input" class="form-label">Check-in</label>
+            <input type="date" class="form-control" id="check-in-input" placeholder="Add dates" aria-label="Check-in">
+        </div>
+        <div class="input-group">
+            <label for="check-out-input" class="form-label">Check-out</label>
+            <input type="date" class="form-control" id="check-out-input" placeholder="Add dates" aria-label="Check-out">
+        </div>
+        <div class="input-group">
+            <label for="guests-input" class="form-label">Guests</label>
+            <input type="text" class="form-control" id="guests-input" placeholder="Add guests" aria-label="Guests">
+        </div>
+        <button type="submit" class="search-btn">
+            <i class="bi bi-search"></i>
+        </button>
+    </div>
+    </div>
+</div>
+
+
+<!-- CARDS -->
+
+<footer class="destination-cards bg-white mt-auto py-3">
+  <div class="card-container">
+      <!-- Prima fila di card -->
+      <div class="row">
+          <div class="col-3 d-flex">
+              <img src="./assets/Cards/genova.png" class="card-img" alt="Genova">
+              <div class="card-info">
+                  <h5 class="card-title">Genova</h5>
+                  <p class="card-text">15 mins drive</p>
+              </div>
+          </div>
+
+          <div class="col-3 d-flex">
+            <img src="./assets/Cards/Edimburgh.png" class="card-img" alt="Edimburg">
+            <div class="card-info">
+                <h5 class="card-title">Edimburg</h5>
+                <p class="card-text">2.5 hrs flight</p>
+            </div>
+        </div>
+
+        <div class="col-3 d-flex">
+          <img src="./assets/Cards/Iverness.png" class="card-img" alt="Inverness">
+          <div class="card-info">
+              <h5 class="card-title">Inverness</h5>
+              <p class="card-text">1.5 hrs flight</p>
+          </div>
+      </div>
+
+      <div class="col-3 d-flex">
+        <img src="./assets/Cards/Kirkwall.png" class="card-img" alt="Rapallo">
+        <div class="card-info">
+            <h5 class="card-title">Rapallo</h5>
+            <p class="card-text">2 hrs flight</p>
+        </div>
+    </div>
+
+      </div>
+      <!-- Seconda fila di card -->
+      <div class="row mt-3">
+
+        <div class="col-3 d-flex">
+          <img src="./assets/Cards/Milan.png" class="card-img" alt="Milan">
+          <div class="card-info">
+              <h5 class="card-title">Milan</h5>
+              <p class="card-text">1.5 hrs drive</p>
+          </div>
+      </div>
+
+      <div class="col-3 d-flex">
+        <img src="./assets/Cards/Montecarlo.png" class="card-img" alt="Montecarlo">
+        <div class="card-info">
+            <h5 class="card-title">Montecarlo</h5>
+            <p class="card-text">2 hrs drive</p>
+        </div>
+    </div>
+
+    <div class="col-3 d-flex">
+      <img src="./assets/Cards/Nordkapp.png" class="card-img" alt="Kirkwall">
+      <div class="card-info">
+          <h5 class="card-title">Kirkwall</h5>
+          <p class="card-text">1 hrs drive</p>
+      </div>
+  </div>
+
+  <div class="col-3 d-flex">
+    <img src="./assets/Cards/Rapallo.png" class="card-img" alt="Nordkapp">
+    <div class="card-info">
+        <h5 class="card-title">Nordkapp</h5>
+        <p class="card-text">10 hrs flight</p>
+    </div>
+</div>
+      </div>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
