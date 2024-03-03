@@ -1,0 +1,409 @@
+body {
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('/assets/home.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    min-height: 100vh; 
+}
+
+/* NAVBAR */
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background: transparent;
+    border: 0;
+}
+
+.navbar-toggler .fas {
+    color: #fff; 
+}
+
+.navbar-custom .navbar-collapse {
+    justify-content: center; 
+}
+
+.navbar-custom .navbar-nav-center {
+    justify-content: center; 
+    flex-grow: 1; 
+}
+.navbar-custom {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.navbar-nav-right .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff; 
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #aaa; 
+}
+
+.navbar-brand {
+    color: #ff5a5f; 
+    font-weight: bold; 
+}
+
+.navbar-brand:hover {
+    color: #ff5a5f; 
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff; 
+    padding: 15px;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #aaa; 
+}
+
+.navbar-custom .navbar-toggler {
+    border: none;
+    padding: 0.25rem 0.5rem;
+}
+
+
+.navbar-custom .navbar-toggler .fas {
+    font-size: 1.25rem; 
+    color: white; 
+}
+
+.navbar-custom {
+    z-index: 1020;
+}
+
+
+/* Bootstrap Icons */
+.bi {
+    font-size: 2rem; 
+}
+
+/* Font Awesome Icons */
+.fas {
+    font-size: 1em; 
+}
+
+.icon-oval {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-left: 10px; 
+}
+
+.navbar-custom .navbar-nav .icon-oval .nav-link {
+    padding: 0 6px; 
+    color: #555; 
+}
+
+.icon-oval .nav-link {
+    color: #000;
+}
+
+.navbar-nav-right .nav-link .bi-globe2 {
+    color: #fff;
+    font-size: 1.25rem; 
+}
+
+.navbar-custom .navbar-nav .icon-oval .nav-link:hover {
+    color: #555; 
+}
+
+.bi, .fas {
+    color: #555; 
+}
+
+/* SCRITTA GO NEAR */
+
+.go-near-container {
+    left: 2% !important; 
+    z-index: 10 !important; 
+}
+
+.go-near-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.go-near-button {
+    padding: 0.3rem 1.3rem; 
+    font-size: 0.8rem; 
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* SEARCHBAR */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center; 
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.search-container .form-label {
+  text-align: left; 
+    }
+
+.search-container .input-group {
+    height: auto; 
+    margin-right: 4px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.bi-search {
+    font-size: 14px; 
+}
+
+.search-container .form-control {
+    width: 100%; 
+    text-align: left; 
+    margin: 0; 
+}
+
+.search-container {
+    padding: 8px; 
+}
+
+.search-container input[type='date'] {
+    text-align: left; 
+}
+
+.input-group {
+    display: flex;
+    height: 50px; 
+}
+
+.form-label {
+    font-weight: bold; 
+    color: black; 
+    font-size: 0.75rem; 
+    margin-bottom: 4px; 
+    display: block; 
+}
+
+.form-control {
+    border: none;
+    outline: none;
+    font-size: 14px; 
+    color: #333;
+    border-radius: 5px; 
+    color: #ccc; 
+    font-weight: normal; 
+    border: 1px solid transparent; 
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: normal;
+    color: #ccc; 
+    }
+
+
+.date-input-group {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.d-flex {
+    align-items: center; 
+    margin-bottom: 1rem; 
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff385c;
+}
+
+
+.date-input {
+    width: 110px;
+}
+
+.bi-calendar3 {
+    font-size: 1.25rem; 
+}
+
+.search-btn {
+    background-color: #ff385c;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    height: 50px; 
+}
+
+.search-btn i {
+    font-size: 20px; 
+    color: white; 
+}
+
+.search-btn:hover {
+    background-color: #e83151;
+}
+
+
+@media (max-width: 576px) {
+    .search-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .search-container .input-group {
+        margin-right: 0;
+        margin-bottom: 10px; 
+    }
+    .search-btn {
+        width: 100%; 
+    }
+}
+
+/* CARD */
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .card-info {
+        display: none;
+    }
+}
+
+footer.destination-cards {
+    background-color: #fff; 
+    padding: 1rem 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+footer.bg-white {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 0; 
+}
+
+footer .row {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%; 
+    margin: auto; 
+}
+
+.card-title {
+    font-size: 0.8rem; 
+    margin-bottom: 0.25rem; 
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.7rem; 
+}
+
+.row {
+    flex-wrap: nowrap; 
+    justify-content: start;
+}
+
+.card-text {
+    margin: 0; 
+    font-size: 14px;
+}
+
+footer .col {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem; 
+}
+
+footer img {
+    border-radius: 0.25rem; 
+}
+
+footer h6 {
+    font-size: 0.9rem; 
+}
+
+footer .text-muted {
+    font-size: 0.75rem; 
+}
+
+.card-img {
+    width: 60px; 
+    height: auto; 
+    margin-right: 0.4rem; 
+}
+
+.card-container {
+
+    width: 100%; 
+    max-width: 1100px; 
+    margin: 0; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+html, body {
+    height: 100%;
+    margin: 0; 
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+main {
+    flex: 1 0 auto; 
+}
+
+footer {
+    flex-shrink: 0; 
+}

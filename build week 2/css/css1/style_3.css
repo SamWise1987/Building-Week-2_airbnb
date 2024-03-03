@@ -1,0 +1,46 @@
+body{
+    background-color: aliceblue;
+}
+
+
+
+
+nav{
+    background-color: tr;
+}
+
+.rounded-top-left {
+    border-top-right-radius: 0.25rem;
+}
+.rounded-bottom-right {
+    border-bottom-right-radius: 0.25rem;
+}
+
+.review-form{
+    height: 100px;
+}
+
+.img-widht{
+    width: 80px;
+}
+
+.logo-logo{
+    width: 100px;
+    height: auto;
+} 
+
+.border-corner-date-in{
+    border-radius: 10px 0 0 0;
+}
+
+.border-corner-date-out{
+border-radius: 0 10px 0 0;
+}
+
+.border-corner-guest{
+border-radius: 0 0 10px 10px;;
+}
+
+a{
+    color: #808080;
+}

@@ -1,0 +1,98 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    align-items: center;
+
+}
+
+.nav-logo {
+    max-width: 90px;
+    max-height: 50px;
+}
+
+.navBar-end {
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+    justify-content: space-between;
+
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.final-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-icon.large svg, ion-icon.large{
+    width: 30px;
+    height: 30px;
+}
+.add-icon{
+    color: #FF385C;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+}
+
+.h2-title{
+    display: flex;
+    align-items: center;
+}
+
+.h2-title ion-icon{
+    color:#f5464c ;
+}
+
+.main-buttons{
+    padding: 20px 0;
+    
+} 
+
+.main-buttons button{
+    
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+   
+}
+.head-p{
+    padding-top: 60px;
+}
+.row{
+    
+    padding: 25px 0 100px 0;
+}
+
+.text-start{
+    border: none;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.text-danger{
+    padding-right: 8px;
+    padding-top: 2px;
+    
+}
+.card-title{
+    display: flex;
+   
+    align-items: baseline;
+}
+#search-result img{
+    object-fit: cover;
+    height: 180px;
+}
